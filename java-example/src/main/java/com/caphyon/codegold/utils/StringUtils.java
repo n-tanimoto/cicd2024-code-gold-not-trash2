@@ -27,15 +27,9 @@ return aString.regionMatches(true, 0, aSubstring, 0, aSubstring.length());
         }
     }
 
-    //コード追加
+
     private int m_unuse;
     public static String getVersion(String service) {
-        if (service != null && service.length() > 0) {
-            int i = service.lastIndexOf(':');
-            if (i >= 0) {
-                return service.substring(i + 1);
-            }
-        }
         return null;
     }
 }
