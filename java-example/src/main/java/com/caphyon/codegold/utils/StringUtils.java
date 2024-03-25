@@ -35,5 +35,5 @@ return aString.regionMatches(true, 0, aSubstring, 0, aSubstring.length());
         }
         return null;
     }
-    
+
 }
