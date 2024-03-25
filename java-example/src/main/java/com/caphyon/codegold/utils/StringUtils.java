@@ -26,7 +26,6 @@ return aString.regionMatches(true, 0, aSubstring, 0, aSubstring.length());
         }
     }
 
-    private int m_unuse;
     public static String getVersion(String service) {
         if (service != null && service.length() > 0) {
             int i = service.lastIndexOf(':');
