@@ -1,7 +1,6 @@
 package com.caphyon.codegold.utils;
 
 public class StringUtils {
-//    Tells if aString starts with aSubstring
 
     public static boolean StartsWith(String aString, String aSubstring) {
     if (aSubstring.length() > aString.length())
@@ -28,7 +27,6 @@ return aString.regionMatches(true, 0, aSubstring, 0, aSubstring.length());
     }
 
 
-    private int m_unuse;
     public static String getVersion(String service) {
         return null;
     }
