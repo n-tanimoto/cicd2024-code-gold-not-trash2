@@ -28,7 +28,7 @@ return aString.regionMatches(true, 0, aSubstring, 0, aSubstring.length());
     }
 
 
-    //private int m_unuse;
+    private int m_unuse;
     public static String getVersion(String service) {
         return null;
     }
