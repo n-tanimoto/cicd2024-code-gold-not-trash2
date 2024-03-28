@@ -1,7 +1,6 @@
 package com.caphyon.codegold.utils;
 
 public class StringUtils {
-//    Tells if aString starts with aSubstring
 
     public static boolean StartsWith(String aString, String aSubstring) {
     if (aSubstring.length() > aString.length())
